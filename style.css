@@ -29,7 +29,7 @@ ul {
   margin: 0;
   font-family: 'Montserrant', sans-serif;
   font-size: 24px;
-  color: #c2b4ab;
+  color: black;
 }
 
 .nav menu {
@@ -187,10 +187,10 @@ a:hover {
   line-height: 30px;
 }
 
-.Value-menu {
+.hobby-menu {
   font-family: 'Montserrat', sans-serif;
   font-size: 35px;
-  margin: 30px 100px;
+  margin: 10px 10px;
 }
 
 .hobby-section {
@@ -262,4 +262,13 @@ a[title='Flaticon']:hover {
 .article {
   display: flex;
   flex-direction: row;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 310px 310px;
+  margin-top: -250px;
 }
